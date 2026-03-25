@@ -1,5 +1,4 @@
-# Project Title
-Study Tracker System
+# Study Tracker System
 
 # Overview of the Project
 This project is a simple command-line Python program that helps students track their daily study hours.  
