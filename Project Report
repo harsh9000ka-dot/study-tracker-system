@@ -1,0 +1,131 @@
+AI Based Study Planner System
+
+1. Introduction
+
+In today’s fast-paced academic environment, students often struggle to manage their study time efficiently. This project presents a Study Planner System that helps users track, analyze, and improve their study habits using Artificial Intelligence (AI) and Machine Learning (ML) concepts.
+
+The system is a command-line Python application that allows users to store study data, visualize it, and receive intelligent suggestions.
+
+2. Objectives
+
+The main objectives of this project are:
+
+To track daily study hours
+To analyze subject-wise performance
+To visualize study patterns using graphs
+To predict future study behavior using ML
+To provide AI-based recommendations
+
+
+3. Technologies Used
+
+Programming Language: Python
+Libraries Used:
+matplotlib → for graph visualization
+tkinter → for GUI timer
+numpy → for numerical operations
+sklearn (LinearRegression) → for ML prediction
+File Handling: Text file (study.txt)
+4. System Description
+
+The system works using a simple menu-driven interface. All study data is stored in a file named study.txt, ensuring persistence.
+
+5. Features of the System
+
+5.1 Add Study Data
+
+User enters subject and study hours
+Data is saved in file
+
+5.2 View Data
+
+Displays all study records
+Calculates total study hours
+5.3 Study Timer (GUI)
+
+Timer built using tkinter
+Automatically saves study time after completion
+
+5.4 Graph Visualization
+
+Bar chart of subjects vs hours
+Helps in visual understanding
+
+5.5 Machine Learning Prediction
+
+Uses Linear Regression
+Predicts next day study hours
+If ML library unavailable → uses average method
+
+5.6 AI Recommendation System
+
+Suggests:
+
+Increase study time (for weak subjects)
+Maintain performance (for strong subjects)
+
+5.7 Performance Analysis
+
+Identifies:
+Weakest subject
+Strongest subject
+
+6. Working Principle
+
+User inputs study data
+Data is stored in study.txt
+System reads data for:
+Graph generation
+Analysis
+Prediction
+ML model analyzes past trends
+AI logic provides recommendations
+
+7. Algorithm Overview
+
+Prediction Algorithm
+Input: Past study hours
+Process:
+Convert data into numerical format
+Train Linear Regression model
+Predict next value
+Output: Future study hours
+Recommendation Algorithm
+Calculate average study time
+Compare each subject:
+Below average → Increase time
+Above average → Good
+
+8. Advantages
+
+Simple and easy to use
+Helps improve time management
+Provides intelligent insights
+Works without internet
+Combines AI + ML concepts
+
+9. Limitations
+
+Uses basic ML model (Linear Regression)
+Limited UI (mostly command-line)
+No cloud storage
+Prediction accuracy depends on data
+
+10. Future Enhancements
+
+Add mobile or web application
+Use advanced ML models
+Add reminders and notifications
+Integrate database instead of text file
+Improve UI/UX
+
+11. Conclusion
+
+The AI + ML Study Planner System is an effective tool for students to track and improve their study habits. It demonstrates how basic AI and ML techniques can be applied to real-life problems like time management and productivity.
+
+12. References
+
+Python Documentation
+Matplotlib Library
+Scikit-learn (ML Library)
+AI & ML basic concepts
